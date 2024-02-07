@@ -1,0 +1,194 @@
+/* Basic Formatting */
+body{
+    background-color: black;
+    color: #008000;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    padding: 0px;
+    background: transparent;
+    color: #008000;
+    display: flex;
+    margin-top: -3%;
+
+}
+section{
+    color: #008000;
+    background: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div{
+    color: #008000;
+    background: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+/* navigation menu */
+.links{
+    text-align: left;
+}
+.links a{
+    text-decoration: none;
+    width: auto;
+    display: block;
+    padding: 20 20px;
+    font-weight: bold;
+    background: transparent;
+}
+.links li:first-child{
+    margin-right: 0px;
+    margin-left: -10;
+}
+.links li{
+    display: inline-block;
+    border-radius: 3px;
+    width: auto;
+    color: #008000;
+}
+.links ul{
+    display: inline-block;
+    background-color: transparent;
+    text-align: right;
+    background-position: 100%;
+    list-style: none;
+}
+.links a:hover{
+    background: #008000;
+    color: black;
+}
+/* logo */
+header img{
+    width: 70px;
+}
+.logo{
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+/* Front Page Text */
+.home{
+    background: transparent;
+    width: 50%
+}
+.home ul{
+    display: table-column;
+    list-style-type: none;
+
+}
+.home.outer{
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.home.first{
+    text-shadow: #016b01 0 0 10px;
+    color: #008000;
+    font-size: 25px;
+
+}
+.home.second{
+    text-shadow: #016b01 0 0 10px;
+    color:#008000;
+    font-size: 50px;
+    width: 100%
+
+}
+.home.third{
+    text-shadow: #016b01 0 0 10px;
+    color:#008000;
+    font-size: 50px;
+    width: 100%;
+
+
+}
+.home.fourth{
+    text-shadow: #016b01 0 0 10px;
+    color: #008000;
+    font-size: 15px;
+    width: 50%;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0px;
+    background: transparent;
+}
+/* Front Page Headshot */
+.headshot{
+    background: transparent;
+    margin-left: 10%;
+}
+.headshot img{
+    width: 300px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #008000;
+    box-shadow: #008000 0 0 10px;
+}
+/* Front Page Formatting */
+.frontpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* lists */
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    margin-right: 0px;
+}
+/* Resume */
+.resume{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.resume ul{
+    padding-left: 30px;
+}
+.resume p{
+    line-height: 10%;
+}
+/* Front Page Media */
+@media screen and (max-width: 1350px){
+    .home{
+        width: 35%;
+        background-color: transparent;
+    }
+    .home.first{
+        width: 100%;
+    }
+    .home.third{
+        width: 100%;      
+    }
+    
+}
+@media screen and (max-width: 1084px){
+    .home{
+        width: 80%;
+        background: transparent;
+        margin: auto;
+    }
+    .frontpage{
+        flex-direction: column;
+    }
+
+}
+/* Contact Page */
+.CHead {
+    border: 3px solid green;
+    text-align: center;
+}
+.media img{
+    width: 100px;
+}
+.media div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
